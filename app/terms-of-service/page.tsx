@@ -2,360 +2,438 @@ import React from "react";
 
 const TermsOfService = () => {
   return (
-    <section id="terms-of-service" className="w-full py-10 sm:py-16">
-      <div className="max-w-3xl mx-auto px-6">
-        <h2 className="h2-bold text-center text-[2rem] font-extrabold text-black">
-          Cirql Terms of Service
-        </h2>
-        <p className="text-medium text-body mt-4 text-center text-gray-800 text-[1rem] font-semibold">
-          Last Updated: August 6, 2024
-        </p>
+      <section id="terms-of-service" className="w-full py-10 sm:py-16">
+        <div className="max-w-3xl mx-auto px-6">
+          <h2 className="h2-bold text-center text-[2rem] font-extrabold text-black">
+            Cirql Terms of Service
+          </h2>
+          <p className="text-medium text-body mt-4 text-center text-gray-800 text-[1rem] font-semibold">
+            Last Updated: [Date]
+          </p>
 
-        <p className="text-medium text-body mt-8 text-gray-900">
-          Welcome to Cirql! These Terms of Service (&quot;Terms&quot;) govern
-          your use of our services, software, and website
-          (&quot;Services&quot;). By accessing or using Cirql, you agree to be
-          bound by these Terms. If you do not agree to these Terms, do not use
-          our Services.
-        </p>
+          <ol className="list-none list-inside mt-8 space-y-6 text-gray-900">
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">1. Definitions</h4>
+              <p className="text-medium text-body mt-2">
+                For the purposes of these Terms:
+              </p>
+              <ul className="list-none list-inside pl-5 mt-2 space-y-2">
+                <li>
+                  <strong>&#34;API Key&#34;</strong> refers to a unique identifier used to
+                  authenticate a user, developer, or calling program to an API.
+                </li>
+                <li>
+                  <strong>&#34;Project Level API Key&#34;</strong> refers to an API key associated
+                  with a specific project, providing scoped access and enhanced security controls.
+                </li>
+                <li>
+                  <strong>&#34;User&#34;</strong> refers to any individual or entity that accesses
+                  or uses Cirql&#39;s Services.
+                </li>
+                <li>
+                  <strong>&#34;Services&#34;</strong> refer to all offerings provided by Cirql,
+                  including but not limited to the website, APIs, AI-driven tools, and related
+                  services.
+                </li>
+                <li>
+                  <strong>&#34;Content&#34;</strong> refers to any data, information, text,
+                  graphics, or other materials submitted or generated through the Services.
+                </li>
+                <li>
+                  <strong>&#34;AI-Generated Content&#34;</strong> refers to any content created by
+                  Cirql&#39;s artificial intelligence tools based on user input or prompts.
+                </li>
+              </ul>
+            </li>
 
-        <ol className="list-none list-inside mt-8 space-y-6 text-gray-900">
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              1. Acceptance of Terms
-            </h4>
-            <p className="text-medium text-body mt-2">
-              By accessing or using our Services, you agree to comply with and
-              be bound by these Terms. These Terms apply to all visitors, users,
-              and others who access or use the Services.
-            </p>
-          </li>
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">2. Introduction</h4>
+              <p className="text-medium text-body mt-2">
+                Welcome to Cirql! These Terms of Service (&#34;Terms&#34;) govern your access to and
+                use of our services, including our website, APIs, AI-driven tools, and any other
+                related services provided by Cirql (&#34;Services&#34;). By accessing or using our
+                Services, you agree to be bound by these Terms. If you do not agree to these Terms,
+                please do not use our Services.
+              </p>
+            </li>
 
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              2. Changes to Terms
-            </h4>
-            <p className="text-medium text-body mt-2">
-              Cirql reserves the right to modify these Terms at any time. We
-              will notify you of any changes by posting the new Terms on our
-              website. You are advised to review these Terms periodically for
-              any changes. Changes to these Terms are effective when they are
-              posted on this page.
-            </p>
-          </li>
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">3. Acceptance of Terms</h4>
+              <p className="text-medium text-body mt-2">
+                By using Cirql&#39;s Services, you affirm that you are at least 18 years old and
+                capable of forming a binding contract with Cirql. These Terms apply to all users of
+                the Services, including users who are contributors of content, information, and
+                other materials.
+              </p>
+            </li>
 
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">3. Eligibility</h4>
-            <p className="text-medium text-body mt-2">
-              You must be at least 18 years old to use our Services. By using
-              our Services, you represent and warrant that you are at least 18
-              years old and have the legal capacity to enter into these Terms.
-            </p>
-          </li>
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">4. User Accounts</h4>
+              <p className="text-medium text-body mt-2">a. Account Creation</p>
+              <p className="text-medium text-body mt-2">
+                To access certain features of our Services, you may be required to create an
+                account. You agree to provide accurate, current, and complete information during the
+                registration process and to update such information to keep it accurate.
+              </p>
+              <p className="text-medium text-body mt-2">b. Account Security</p>
+              <p className="text-medium text-body mt-2">
+                You are responsible for maintaining the confidentiality of your account credentials
+                and for all activities that occur under your account. You agree to immediately
+                notify Cirql of any unauthorized use of your account or any other breach of
+                security.
+              </p>
+            </li>
 
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              4. Account Registration
-            </h4>
-            <p className="text-medium text-body mt-2">
-              To use certain features of the Services, you may be required to
-              register for an account. You agree to:
-            </p>
-            <ul className="list-none list-inside pl-5 mt-2 space-y-2">
-              <li>
-                • Provide accurate, current, and complete information during the
-                registration process.
-              </li>
-              <li>
-                • Maintain the security of your password and accept all risks of
-                unauthorized access to your account.
-              </li>
-              <li>
-                • Notify us immediately if you discover or suspect any security
-                breaches related to the Services or your account.
-              </li>
-            </ul>
-          </li>
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">5. User Responsibilities</h4>
+              <p className="text-medium text-body mt-2">a. API Key Management</p>
+              <p className="text-medium text-body mt-2">
+                Cirql is not responsible for the API keys that users may provide or generate for use
+                with Cirql services. It is solely the user&#39;s responsibility to manage and secure
+                their API keys. Users are advised to utilize a &#34;project level&#34; API key to
+                enhance security and maintain proper access controls. Cirql does not manage, store,
+                or have access to users&#39; API keys, and users should ensure that their API keys
+                are kept confidential and are not shared with unauthorized parties.
+              </p>
+              <p className="text-medium text-body mt-2">Best Practices for API Key Usage</p>
+              <ul className="list-none list-inside pl-5 mt-2 space-y-2">
+                <li>
+                  <strong>Confidentiality:</strong> Do not share your API keys publicly or with
+                  unauthorized individuals.
+                </li>
+                <li>
+                  <strong>Rotation:</strong> Regularly rotate your API keys to minimize security
+                  risks.
+                </li>
+                <li>
+                  <strong>Monitoring:</strong> Monitor the usage of your API keys to detect any
+                  unauthorized or suspicious activities.
+                </li>
+                <li>
+                  <strong>Scoped Access:</strong> Use project level API keys to ensure that access
+                  is limited to specific projects or functionalities.
+                </li>
+              </ul>
+              <p className="text-medium text-body mt-2">Consequences of Mismanagement</p>
+              <ul className="list-none list-inside pl-5 mt-2 space-y-2">
+                <li>
+                  • Suspension or termination of your access to the Services.
+                </li>
+                <li>
+                  • Unauthorized access to your data or projects.
+                </li>
+                <li>
+                  • Potential legal liability for misuse of the Services.
+                </li>
+              </ul>
+              <p className="text-medium text-body mt-2">b. Data Security and Privacy</p>
+              <p className="text-medium text-body mt-2">
+                Users are responsible for ensuring that any data they input into Cirql&#39;s
+                Services complies with applicable data protection laws and regulations. Cirql does
+                not claim ownership of the data you provide but does require that you have the
+                necessary rights and permissions to use and share that data through our Services.
+              </p>
+              <p className="text-medium text-body mt-2">c. Compliance with Laws</p>
+              <p className="text-medium text-body mt-2">
+                You agree to comply with all applicable local, state, national, and international
+                laws and regulations in your use of the Services.
+              </p>
+              <p className="text-medium text-body mt-2">d. Prohibited Activities</p>
+              <p className="text-medium text-body mt-2">
+                You agree not to engage in any activities that:
+              </p>
+              <ul className="list-none list-inside pl-5 mt-2 space-y-2">
+                <li>
+                  • Violate any applicable laws or regulations.
+                </li>
+                <li>
+                  • Infringe upon the intellectual property rights of others.
+                </li>
+                <li>
+                  • Attempt to gain unauthorized access to Cirql&#39;s systems or networks.
+                </li>
+                <li>
+                  • Transmit harmful or malicious content.
+                </li>
+                <li>
+                  • Use the Services to generate or distribute misleading, false, or harmful
+                  information.
+                </li>
+              </ul>
+            </li>
 
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              5. Subscription and Fees
-            </h4>
-            <ul className="list-none list-inside pl-5 mt-2 space-y-2">
-              <li>
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">6. Prohibited Activities</h4>
+              <p className="text-medium text-body mt-2">
+                Cirql reserves the right to prohibit or restrict any activities that may harm our
+                Services, users, or third parties. This includes, but is not limited to:
+              </p>
+              <ul className="list-none list-inside pl-5 mt-2 space-y-2">
+                <li>
+                  • Misuse of AI Tools: Using Cirql&#39;s AI-driven tools to create content that is
+                  defamatory, obscene, or otherwise inappropriate.
+                </li>
+                <li>
+                  • Data Scraping: Unauthorized collection of data from our Services for commercial
+                  purposes.
+                </li>
+                <li>
+                  • Interference with Services: Attempting to disrupt, degrade, or interfere with
+                  the functionality of our Services.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">7. Intellectual Property</h4>
+              <p className="text-medium text-body mt-2">
+                All content, features, and functionality of the Services, including but not limited
+                to text, graphics, logos, icons, images, audio clips, data compilations, and
+                software, are the exclusive property of Cirql or its licensors and are protected by
+                international copyright, trademark, patent, trade secret, and other intellectual
+                property or proprietary rights laws.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">8. Data Usage and AI-Generated
+                Content</h4>
+              <p className="text-medium text-body mt-2">a. Ownership and Rights</p>
+              <ul className="list-none list-inside pl-5 mt-2 space-y-2">
+                <li>
+                  <strong>User Content:</strong> You retain ownership of any content you submit,
+                  post, or display through the Services. By submitting content, you grant Cirql a
+                  worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and
+                  distribute your content as necessary to provide the Services.
+                </li>
+                <li>
+                  <strong>AI-Generated Content:</strong> Content generated by Cirql&#39;s AI tools
+                  is owned by the user who initiated the generation, provided that the user has the
+                  necessary rights and permissions for any input data used to create such content.
+                </li>
+              </ul>
+              <p className="text-medium text-body mt-2">b. Usage Restrictions</p>
+              <p className="text-medium text-body mt-2">
+                You agree not to use AI-generated content for any unlawful purposes or in ways that
+                could harm Cirql, its users, or third parties. This includes, but is not limited to,
+                creating defamatory, obscene, or misleading information.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">9. Feedback and Improvements</h4>
+              <p className="text-medium text-body mt-2">
+                We value your feedback and suggestions for improving our Services. By providing
+                feedback, you grant Cirql the right to use, modify, and incorporate your feedback
+                into the Services without any obligation to you.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">10. Third-Party Integrations</h4>
+              <p className="text-medium text-body mt-2">
+                Cirql may integrate with third-party services to enhance functionality. These
+                integrations are subject to the terms and privacy policies of the respective third
+                parties. Cirql is not responsible for the practices or content of third-party
+                services and does not endorse or guarantee any third-party services.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">11. Export Compliance</h4>
+              <p className="text-medium text-body mt-2">
+                You agree to comply with all applicable export laws and regulations in your use of
+                the Services. This includes, but is not limited to, restrictions on the export of
+                data, software, and technology to certain countries or entities.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">12. Dispute Resolution</h4>
+              <p className="text-medium text-body mt-2">a. Informal Resolution</p>
+              <p className="text-medium text-body mt-2">
+                In the event of any dispute, claim, question, or disagreement arising from or
+                relating to these Terms or the breach thereof, the parties shall first attempt to
+                settle the dispute informally.
+              </p>
+              <p className="text-medium text-body mt-2">b. Arbitration</p>
+              <p className="text-medium text-body mt-2">
+                Any disputes not resolved through informal resolution shall be settled by binding
+                arbitration in [Your Jurisdiction], in accordance with the rules of [Arbitration
+                Body]. The arbitration shall be conducted in the English language.
+              </p>
+              <p className="text-medium text-body mt-2">c. Governing Law</p>
+              <p className="text-medium text-body mt-2">
+                These Terms shall be governed and construed in accordance with the laws of [Your
+                Jurisdiction], without regard to its conflict of law provisions.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">13. Termination</h4>
+              <p className="text-medium text-body mt-2">
+                Cirql reserves the right to terminate or suspend your access to the Services
+                immediately, without prior notice or liability, for any reason whatsoever, including
+                without limitation if you breach the Terms. Upon termination, your right to use the
+                Services will cease immediately.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">14. Disclaimers and Limitation of
+                Liability</h4>
+              <p className="text-medium text-body mt-2">a. Disclaimers</p>
+              <p className="text-medium text-body mt-2">
+                Your use of the Services is at your sole risk. The Services are provided on
+                an &#34;AS IS&#34; and &#34;AS AVAILABLE&#34; basis without any warranties of any
+                kind, either express or implied. Cirql does not warrant that the Services will be
+                uninterrupted, error-free, or free from viruses or other harmful components.
+              </p>
+              <p className="text-medium text-body mt-2">b. Limitation of Liability</p>
+              <p className="text-medium text-body mt-2">
+                In no event shall Cirql, nor its directors, employees, partners, agents, suppliers,
+                or affiliates, be liable for any indirect, incidental, special, consequential, or
+                punitive damages, including without limitation, loss of profits, data, use,
+                goodwill, or other intangible losses, resulting from:
+              </p>
+              <ul className="list-none list-inside pl-5 mt-2 space-y-2">
+                <li>
+                  • Your access to or use of or inability to access or use the Services.
+                </li>
+                <li>
+                  • Any conduct or content of any third party on the Services.
+                </li>
+                <li>
+                  • Any content obtained from the Services.
+                </li>
+                <li>
+                  • Unauthorized access, use, or alteration of your transmissions or content.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">15. Privacy Policy</h4>
+              <p className="text-medium text-body mt-2">
+                Your use of the Services is also governed by our Privacy Policy, which can be found
+                here. By using the Services, you consent to the collection and use of your
+                information as outlined in the Privacy Policy.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">16. Indemnification</h4>
+              <p className="text-medium text-body mt-2">
+                You agree to defend, indemnify, and hold harmless Cirql and its licensee and
+                licensors, and their employees, contractors, agents, officers, and directors, from
+                and against any and all claims, damages, obligations, losses, liabilities, costs, or
+                debt, and expenses (including but not limited to attorney&#39;s fees), resulting
+                from:
+              </p>
+              <ul className="list-none list-inside pl-5 mt-2 space-y-2">
+                <li>
+                  • Your use and access of the Services.
+                </li>
+                <li>
+                  • Your violation of any term of these Terms.
+                </li>
+                <li>
+                  • Your violation of any third-party right, including without limitation any
+                  copyright, property, or privacy right.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">17. Entire Agreement</h4>
+              <p className="text-medium text-body mt-2">
+                These Terms constitute the entire agreement between you and Cirql regarding your use
+                of the Services and supersede all prior agreements, understandings, and
+                communications, whether written or oral.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">18. Severability</h4>
+              <p className="text-medium text-body mt-2">
+                If any provision of these Terms is found to be unenforceable or invalid by a court,
+                the remaining provisions of these Terms will remain in effect.
+              </p>
+            </li>
+
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">19. Contact Us</h4>
+              <p className="text-medium text-body mt-2">
+                If you have any questions about these Terms, please contact us at:
+              </p>
+              <p className="text-medium text-body mt-4">
                 <span> • </span>
-                <strong>Subscription Fees:</strong> Cirql charges a subscription
-                fee for the use of its Services. The subscription fee is $6 per
-                user per month.
-              </li>
-              <li>
+                <strong>Email:</strong>{" "}
+                <a href="mailto:support@cirql.com" className="text-accent hover:underline">
+                  support@cirql.com
+                </a>
+              </p>
+              <p className="text-medium text-body mt-2">
                 <span> • </span>
-                <strong>Payment:</strong> Subscription fees will be billed to
-                you in advance on a recurring monthly basis. All payments are
-                non-refundable.
-              </li>
-              <li>
-                <span> • </span>
-                <strong>Changes to Fees:</strong> Cirql reserves the right to
-                change its subscription fees at any time. We will notify you in
-                advance of any fee changes.
-              </li>
-            </ul>
-          </li>
+                <strong>Address:</strong> [Your Company Address]
+              </p>
+            </li>
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">20. Export Compliance</h4>
+              <p className="text-medium text-body mt-2">
+                You agree to comply with all applicable export laws and regulations in your use of
+                the Services. This includes, but is not limited to, restrictions on the export of
+                data, software, and technology to certain countries or entities.
+              </p>
+            </li>
 
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              6. Use of Services
-            </h4>
-            <p className="text-medium text-body mt-2">
-              You agree to use the Services only for lawful purposes and in
-              accordance with these Terms. You agree not to:
-            </p>
-            <ul className="list-none list-inside pl-5 mt-2 space-y-2">
-              <li>
-                • Use the Services in any way that violates any applicable
-                federal, state, local, or international law or regulation.
-              </li>
-              <li>
-                • Engage in any conduct that restricts or inhibits anyone&apos;s
-                use or enjoyment of the Services, or which, as determined by us,
-                may harm Cirql or users of the Services.
-              </li>
-              <li>
-                • Use the Services in any manner that could disable, overburden,
-                damage, or impair the Services or interfere with any other
-                party&apos;s use of the Services.
-              </li>
-            </ul>
-          </li>
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">21. Feedback and Improvements</h4>
+              <p className="text-medium text-body mt-2">
+                We value your feedback and suggestions for improving our Services. By providing
+                feedback, you grant Cirql the right to use, modify, and incorporate your feedback
+                into the Services without any obligation to you.
+              </p>
+            </li>
 
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              7. Email Filtering and Data Protection
-            </h4>
-            <p className="text-medium text-body mt-2">
-              Cirql provides email filtering and data protection services. By
-              using our Services, you acknowledge and agree that:
-            </p>
-            <ul className="list-none list-inside pl-5 mt-2 space-y-2">
-              <li>
-                • Cirql will access and analyze your emails to provide filtering
-                and categorization services.
-              </li>
-              <li>
-                • Cirql may use AI and other technologies to improve the
-                accuracy and efficiency of its Services.
-              </li>
-              <li>
-                • Cirql will handle your data in accordance with its Privacy
-                Policy.
-              </li>
-            </ul>
-          </li>
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">22. Third-Party Integrations</h4>
+              <p className="text-medium text-body mt-2">
+                Cirql may integrate with third-party services to enhance functionality. These
+                integrations are subject to the terms and privacy policies of the respective third
+                parties. Cirql is not responsible for the practices or content of third-party
+                services and does not endorse or guarantee any third-party services.
+              </p>
+            </li>
 
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              8. Third-Party Services
-            </h4>
-            <p className="text-medium text-body mt-2">
-              Our Services may contain links to third-party websites or services
-              that are not owned or controlled by Cirql. Cirql has no control
-              over, and assumes no responsibility for, the content, privacy
-              policies, or practices of any third-party websites or services.
-              You acknowledge and agree that Cirql shall not be responsible or
-              liable, directly or indirectly, for any damage or loss caused or
-              alleged to be caused by or in connection with the use of or
-              reliance on any such content, goods, or services available on or
-              through any such websites or services.
-            </p>
-          </li>
+            <li>
+              <h4 className="h4-bold text-[1.25rem] font-bold">23. Data Usage and AI-Generated
+                Content</h4>
+              <p className="text-medium text-body mt-2">a. Ownership and Rights</p>
+              <ul className="list-none list-inside pl-5 mt-2 space-y-2">
+                <li>
+                  <strong>User Content:</strong> You retain ownership of any content you submit,
+                  post, or display through the Services. By submitting content, you grant Cirql a
+                  worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and
+                  distribute your content as necessary to provide the Services.
+                </li>
+                <li>
+                  <strong>AI-Generated Content:</strong> Content generated by Cirql's AI tools is
+                  owned by the user who initiated the generation, provided that the user has the
+                  necessary rights and permissions for any input data used to create such content.
+                </li>
+              </ul>
+              <p className="text-medium text-body mt-2">b. Usage Restrictions</p>
+              <p className="text-medium text-body mt-2">
+                You agree not to use AI-generated content for any unlawful purposes or in ways that
+                could harm Cirql, its users, or third parties. This includes, but is not limited to,
+                creating defamatory, obscene, or misleading information.
+              </p>
+            </li>
 
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              9. Intellectual Property
-            </h4>
-            <p className="text-medium text-body mt-2">
-              The Services and its original content, features, and functionality
-              are and will remain the exclusive property of Cirql and its
-              licensors. The Services are protected by copyright, trademark, and
-              other laws of both the United States and foreign countries. Our
-              trademarks and trade dress may not be used in connection with any
-              product or service without the prior written consent of Cirql.
-            </p>
-          </li>
-
-          <li className="list-none">
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              10. Termination
-            </h4>
-            <p className="text-medium text-body mt-2">
-              We may terminate or suspend your account and bar access to the
-              Services immediately, without prior notice or liability, under our
-              sole discretion, for any reason whatsoever and without limitation,
-              including but not limited to a breach of the Terms. If you wish to
-              terminate your account, you may simply discontinue using the
-              Services.
-            </p>
-          </li>
-
-          <li className="list-none">
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              11. Limitation of Liability
-            </h4>
-            <p className="text-medium text-body mt-2">
-              In no event shall Cirql, nor its directors, employees, partners,
-              agents, suppliers, or affiliates, be liable for any indirect,
-              incidental, special, consequential, or punitive damages, including
-              without limitation, loss of profits, data, use, goodwill, or other
-              intangible losses, resulting from:
-            </p>
-            <ul className="list-none list-inside pl-5 mt-2 space-y-2">
-              <li>
-                • Your use of the Services or inability to use the Services.
-              </li>
-              <li>
-                • Any unauthorized access to or use of our servers and/or any
-                personal information stored therein.
-              </li>
-              <li>
-                • Any interruption or cessation of transmission to or from the
-                Services.
-              </li>
-              <li>
-                • Any bugs, viruses, trojan horses, or the like that may be
-                transmitted to or through our Services by any third party.
-              </li>
-              <li>
-                • Any errors or omissions in any content or for any loss or
-                damage incurred as a result of the use of any content posted,
-                emailed, transmitted, or otherwise made available through the
-                Services.
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              12. Indemnification
-            </h4>
-            <p className="text-medium text-body mt-2">
-              You agree to defend, indemnify, and hold harmless Cirql and its
-              licensee and licensors, and their employees, contractors, agents,
-              officers, and directors, from and against any and all claims,
-              damages, obligations, losses, liabilities, costs, or debt, and
-              expenses (including but not limited to attorney&apos;s fees),
-              resulting from or arising out of:
-            </p>
-            <ul className="list-none list-inside pl-5 mt-2 space-y-2">
-              <li>
-                • Your use and access of the Services, by you or any person
-                using your account and password.
-              </li>
-              <li>• A breach of these Terms.</li>
-              <li>• Content posted on the Services.</li>
-            </ul>
-          </li>
-
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              13. Governing Law
-            </h4>
-            <p className="text-medium text-body mt-2">
-              These Terms shall be governed and construed in accordance with the
-              laws of [Your State/Country], without regard to its conflict of
-              law provisions. Our failure to enforce any right or provision of
-              these Terms will not be considered a waiver of those rights. If
-              any provision of these Terms is held to be invalid or
-              unenforceable by a court, the remaining provisions of these Terms
-              will remain in effect. These Terms constitute the entire agreement
-              between us regarding our Services, and supersede and replace any
-              prior agreements we might have had between us regarding the
-              Services.
-            </p>
-          </li>
-
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              14. Limitation of Liability for Email Services
-            </h4>
-            <p className="text-medium text-body mt-2">
-              Cirql provides email filtering, categorization, and management
-              services. By using our Services, you acknowledge and agree that:
-            </p>
-            <ul className="list-none list-inside pl-5 mt-2 space-y-2">
-              <li>
-                • Cirql shall not be liable for any direct, indirect,
-                incidental, special, consequential, or punitive damages,
-                including but not limited to, any loss of data, emails, or
-                access to your email account that may result from the use of our
-                Services.
-              </li>
-              <li>
-                • Cirql is not responsible for any loss, miscategorization,
-                misdelivery, deletion, or movement of emails that may occur
-                while using our Services.
-              </li>
-              <li>
-                • Cirql shall not be held liable for any misconfigurations of
-                your email inbox or account settings, whether such
-                misconfigurations are the result of user actions, automated
-                processes, or errors within our Services.
-              </li>
-              <li>
-                • You assume full responsibility for reviewing and managing the
-                settings, filters, and configurations applied to your inbox and
-                email account. It is your responsibility to ensure that these
-                configurations meet your needs and expectations.
-              </li>
-              <li>
-                • Cirql shall not be liable for any unauthorized access to,
-                alteration of, or use of your email account or data, whether
-                through our Services or otherwise.
-              </li>
-              <li>
-                • By using our Services, you agree to indemnify, defend, and
-                hold harmless Cirql from any claims, damages, losses, or
-                liabilities arising out of or related to the use of our Services
-                and any impact on your email account or inbox.
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">
-              15. Changes to Terms
-            </h4>
-            <p className="text-medium text-body mt-2">
-              We reserve the right, at our sole discretion, to modify or replace
-              these Terms at any time. If a revision is material, we will try to
-              provide at least 30 days&apos; notice prior to any new terms
-              taking effect. What constitutes a material change will be
-              determined at our sole discretion. By continuing to access or use
-              our Services after those revisions become effective, you agree to
-              be bound by the revised terms. If you do not agree to the new
-              terms, please stop using the Services.
-            </p>
-          </li>
-
-          <li>
-            <h4 className="h4-bold text-[1.25rem] font-bold">16. Contact Us</h4>
-            <p className="text-medium text-body mt-2">
-              If you have any questions about these Terms, please contact us at:
-            </p>
-            <p className="text-medium text-body mt-4">
-              <span> • </span>
-              <strong>Email:</strong>{" "}
-              <a
-                href="mailto:support@cirql.com"
-                className="text-accent hover:underline"
-              >
-                support@cirql.com
-              </a>
-            </p>
-          </li>
-        </ol>
-      </div>
-    </section>
+          </ol>
+        </div>
+      </section>
   );
 };
 
