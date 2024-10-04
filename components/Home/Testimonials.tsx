@@ -9,7 +9,7 @@ const Testimonials = () => {
           <h2 className="text-dark text-4xl sm:text-5xl font-medium mb-6">
             Best concept I have seen in sales in a long time!
           </h2>
-          <img src="/images/testimonial.png" alt="testimonial"/>
+          <Image src="/images/testimonial.png" alt="testimonial"/>
           {/*<h2 className="text-dark text-4xl sm:text-5xl font-medium">*/}
           {/*  I took one meeting and it paid for the entire year!*/}
           {/*</h2>*/}
